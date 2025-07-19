@@ -1,2 +1,69 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+
+/* Ionic Variables and Theming. For more info, please see:
+http://ionicframework.com/docs/theming/ */
+
+/* Anayasa Maddesi 2: Tipografi */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  /** Font Ailesi **/
+  --ion-font-family: 'Poppins', sans-serif;
+
+  /*
+   * ANASAYASA MADDE 1: RENKLER ("Sinematik Gece" - Karanlık Tema)
+   * Bu renkleri doğrudan Ionic'in ana değişkenlerine atıyoruz.
+  */
+
+  /** Ana Renk **/
+  --ion-color-primary: #F97316; /* Turuncu */
+
+  /** Metin Renkleri **/
+  --ion-text-color: #F8FAFC; /* Ana Metin (Kırık Beyaz) */
+  --ion-text-color-step-300: #94A3B8; /* İkincil Metin (Açık Gri) */
+
+  /** Arka Plan ve Yüzey Renkleri **/
+  --ion-background-color: #1E293B; /* En dipteki, koyu lacivert/gri */
+  --ion-toolbar-background: #334155; /* Header ve Tab Bar gibi yüzeyler */
+  --ion-card-background: #334155; /* Kartların arka planı */
+  --ion-item-background: #334155; /* Liste elemanlarının arka planı */
+
+  /** Çizgi Rengi **/
+  --ion-border-color: #475569;
+
+  /** Sistem Renkleri **/
+  --ion-color-success: #22C55E;
+  --ion-color-danger: #EF4444; /* Ionic'te 'error' yerine 'danger' kullanılır */
+  --ion-color-warning: #F59E0B;
+}
+
+/* --- ANASAYASA MADDE 2: TİPOGRAFİ SKALASI --- */
+.text-display {
+  font-size: 28px;
+  font-weight: 700; /* Bold */
+}
+.text-h2 {
+  font-size: 22px;
+  font-weight: 600; /* SemiBold */
+}
+.text-h3 {
+  font-size: 18px;
+  font-weight: 600; /* SemiBold */
+}
+.text-body {
+  font-size: 15px;
+  font-weight: 400; /* Regular */
+}
+.text-button {
+  font-size: 15px;
+  font-weight: 500; /* Medium */
+}
+.text-caption {
+  font-size: 13px;
+  font-weight: 400; /* Regular */
+}
+.text-overline {
+  font-size: 12px;
+  font-weight: 500; /* Medium */
+}

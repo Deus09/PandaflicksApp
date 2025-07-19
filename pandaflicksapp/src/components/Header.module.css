@@ -1,0 +1,25 @@
+/* src/components/Header.module.css */
+
+.header_button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 8px; /* Butonlar arasına ve kenara boşluk koyar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8; /* İkonu biraz soluklaştırır */
+  transition: opacity 0.2s ease-in-out; /* Yumuşak geçiş efekti */
+}
+
+/* Dokunulduğunda veya üzerine gelindiğinde ikonu netleştir */
+.header_button:hover,
+.header_button:active {
+  opacity: 1;
+}
+
+.header_icon {
+  font-size: 24px;
+  color: #F8FAFC; /* Anayasamızdaki Ana Metin Rengi (Kırık Beyaz) */
+}
